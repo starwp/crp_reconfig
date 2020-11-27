@@ -32,6 +32,7 @@ def print_all(gph):
 def version(A):
     if A:
         print('111')
+        print('222')
 
 def test_uniform():
     sch = Schedule()
