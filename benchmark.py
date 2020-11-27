@@ -29,7 +29,9 @@ def print_all(gph):
         for rp in ph.rps:
             print(ph.pid, ph.slice_size, rp.idn, rp.befPeriod, rp.aftPeriod, rp.offset)
 
-
+def version(A):
+    if A:
+        print('111')
 
 def test_uniform():
     sch = Schedule()
